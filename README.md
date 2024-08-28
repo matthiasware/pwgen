@@ -15,4 +15,12 @@ pip install -e .
 ```
 
 Build:
+```sh
+pip -m build
+```
+
+Install optional dependencies, e.g. tests:
+```sh
+pip install '.[tests]'
+```
 
