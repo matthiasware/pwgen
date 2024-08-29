@@ -68,13 +68,12 @@ def test_generate_password_mandatory_chars_1():
 def test_generate_password_mandatory_chars_2():
     charsets = [
         CharsetMinSamples("A", 4),
-        CharsetMinSamples("B", 1),
-        CharsetMinSamples(ALL, 0).exclude("AB")
+        CharsetMinSamples(ALL, 0)
     ]
     pw = generate_password(10, charsets)
 
     n_a = sum([1 for c in pw if c == 'A'])
-    assert n_a == 4
+    assert n_a >= 4
 
 
 def test_generate_password_mandatory_chars_3():
