@@ -7,4 +7,6 @@
 !.flake8
 
 !*.py
+
+build
 __pycache__
