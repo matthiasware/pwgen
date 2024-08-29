@@ -3,7 +3,7 @@ Password generation utilities.
 
 Sample project to test github actions.
 
-## Instlall
+## Install
 Install locally
 ```sh
 pip install .
