@@ -14,7 +14,8 @@ tests = [
     "pytest",
     "pytest-cov",
     "mypy",
-    "pwgen"
+    "pwgen",
+    "flake8"
 ]
 
 [build-system]
