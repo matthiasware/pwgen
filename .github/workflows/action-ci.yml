@@ -31,4 +31,4 @@ jobs:
     - name: Static Analysis with mypy
       run: mypy src
     - name: Test with pytest
-      run: pytest
+      run: pytest --cov
