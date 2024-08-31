@@ -5,9 +5,7 @@ license = {text = "MIT License"}
 readme = "README.md"
 
 requires-python = ">= 3.9"
-dependencies = [
-    'click',
-]
+dependencies = []
 
 [project.optional-dependencies]
 tests = [

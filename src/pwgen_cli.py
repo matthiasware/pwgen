@@ -109,7 +109,6 @@ def main():
               " Overwrites other specifications")
     )
     args = parser.parse_args()
-    print(args)
 
     # build charsets
     charsets = [
