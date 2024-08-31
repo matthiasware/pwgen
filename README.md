@@ -44,6 +44,7 @@ pwgen 10 --exclude '#!
 Generate password of length 10 and explicitly includes the characters 'H', '4', 'X', 'X', 'O', 'R':
 ```sh
 pwgen 8 --include H4XOR
+```
 
 
 ### Install
