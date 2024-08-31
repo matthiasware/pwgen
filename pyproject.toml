@@ -18,6 +18,9 @@ tests = [
     "flake8"
 ]
 
+[project.scripts]
+pwgen = 'pwgen_cli:main'
+
 [build-system]
 requires = ["setuptools >= 61.0", "build"]
 build-backend = "setuptools.build_meta"

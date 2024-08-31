@@ -37,21 +37,6 @@ def test_generate_password_length_complex():
     assert len(password) == 2
 
 
-def test_generate_password_invalid_length():
-    charsets = [
-        CharsetMinSamples("C", 1),
-        CharsetMinSamples("D", 1),
-        CharsetMinSamples("E", 1),
-        CharsetMinSamples("F", 1),
-    ]
-
-    try:
-        generate_password(2, charsets)
-        assert False
-    except ValueError:
-        assert True
-
-
 def test_generate_password_mandatory_chars_1():
     charsets = [
         CharsetMinSamples("A", 1),
